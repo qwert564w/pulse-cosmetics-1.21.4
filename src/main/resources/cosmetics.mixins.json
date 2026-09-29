@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "ru.pulse.mixin",
+  "package": "pulse.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "CosmeticRendererMixin"
+    "CosmeticRendererMixin",
+    "TitleScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 0

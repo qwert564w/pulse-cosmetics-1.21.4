@@ -12,7 +12,7 @@ public class CosmeticsMod implements ClientModInitializer {
     public void onInitializeClient() {
         LOGGER.info("Cosmetics 1.21.4 port loaded, entries={}", LocalCosmetics.size());
         // auto-equip first non-cape so something is visible without GUI
-        LocalCosmetics.selectDefault();
+        // LocalCosmetics.selectDefault(); // pick via main menu
         LOGGER.info("Default cosmetic selected, active={}", LocalCosmetics.selectedIndices());
     }
 }

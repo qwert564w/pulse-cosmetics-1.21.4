@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "pulse-cosmetics",
-  "version": "1.0.0-1.21.4",
-  "name": "Pulse Cosmetics (1.21.4 port)",
-  "description": "Port of Pulse cosmetics bundle to Fabric 1.21.4",
+  "version": "1.1.0-1.21.4",
+  "name": "Intel Menu + Cosmetics",
+  "description": "Custom main menu + cosmetics for Fabric 1.21.4",
   "environment": "client",
   "entrypoints": {
     "client": ["pulse.CosmeticsMod"]

@@ -36,6 +36,14 @@ public final class LocalCosmetics {
         return List.copyOf(SELECTED.values());
     }
 
+    public static boolean isSelected(int i) {
+        return SELECTED.containsValue(i);
+    }
+
+    public static void clearSelection() {
+        SELECTED.clear();
+    }
+
     public static void toggle(int i) {
         if (i < 0 || i >= ENTRIES.size()) return;
         String type = type(i);
