@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pulse-cosmetics",
+  "version": "1.0.0-1.21.4",
+  "name": "Pulse Cosmetics (1.21.4 port)",
+  "description": "Port of Pulse cosmetics bundle to Fabric 1.21.4",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pulse.CosmeticsMod"]
+  },
+  "mixins": ["cosmetics.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
